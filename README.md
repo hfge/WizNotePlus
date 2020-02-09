@@ -41,6 +41,10 @@ README **中文** | [English](documents/README-en.md)
 ### DMG
 
 macOS 平台下请双击 `WizNote-mac.dmg` ，并在弹出窗口中拖动应用包安装到相应位置。
+macOS 平台下使用，启动时如果提示未知开发者，无法打开，请打开终端，执行以下命令允许所有来源：
+```shell
+sudo spctl --master-disable
+```
 
 ### AppImage
 
